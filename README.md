@@ -1,12 +1,22 @@
-# React + Vite
+# Perforation Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Perforation Calculator is a web application that allows users to calculate the number of holes per square inch and the open area percentage for perforated materials at different angles (60 degrees and 45 degrees). The application provides an easy-to-use interface for inputting hole size and pitch, with the option to select units (millimeters or inches) for each input.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Calculate holes per square inch and open area percentage for 60-degree and 45-degree angles.
+- Input hole size and pitch in either millimeters or inches.
+- User-friendly interface with Bootstrap styling.
+- Real-time calculations based on user inputs.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Bootstrap
+- React-Bootstrap
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/perforation-calculator.git
