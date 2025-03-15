@@ -14,9 +14,3 @@ The Perforation Calculator is a web application that allows users to calculate t
 - React
 - Bootstrap
 - React-Bootstrap
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/perforation-calculator.git
