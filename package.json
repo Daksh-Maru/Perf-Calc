@@ -6,7 +6,7 @@
   "homepage": "https://Daksh-Maru.github.io/Perf-Calc",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
