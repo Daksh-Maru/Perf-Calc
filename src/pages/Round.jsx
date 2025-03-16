@@ -5,7 +5,7 @@ function Round() {
   const [hole60, setHole60] = useState("");
   const [pitch60, setPitch60] = useState("");
   const [holes60, setHoles60] = useState("");
-  const [openArea60, setOpenArea60] = useState("");
+  const [openArea60, setOpenArea60] = useState(""); 
 
   const [hole45, setHole45] = useState("");
   const [pitch45, setPitch45] = useState("");
@@ -35,7 +35,7 @@ function Round() {
     } else if (angle === 45) {
       const holeSizeMM = convertToMM(hole45, unitHole45);
       const pitchSizeMM = convertToMM(pitch45, unitPitch45);
-      const holes = pitchSizeMM !== 0 ? (745 / (pitchSizeMM ** 2)).toFixed(3) : 0;
+      const holes = pitchSizeMM !== 0 ? (645 / (pitchSizeMM ** 2)).toFixed(3) : 0;
       const openArea =
         holeSizeMM && pitchSizeMM
           ? ((holeSizeMM ** 2) / (pitchSizeMM ** 2) * 78.54).toFixed(3)
@@ -171,5 +171,5 @@ function Round() {
     </Container>
   );
 }
-  
+
 export default Round;
