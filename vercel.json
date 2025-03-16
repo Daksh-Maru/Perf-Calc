@@ -1,8 +1,8 @@
 {
-    "rewrites": [
+    "routes": [
       {
-        "source": "/Perf-Calc/(.*)",
-        "destination": "/Perf-Calc/index.html"
+        "src": "/[^.]+",
+        "dest": "/"
       }
     ]
 }
